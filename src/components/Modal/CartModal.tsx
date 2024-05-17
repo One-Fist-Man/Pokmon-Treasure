@@ -14,7 +14,7 @@ import { Store } from "@/types/types";
 export const CartModal = ({
   array,
 }: {
-  array: [Dispatch<SetStateAction<boolean>>, string];
+  array: [Dispatch<SetStateAction<boolean>>, string]; sdsd sdsds dsdwdwedsdcdd
 }) => {
   const id = array[1];
   const closeModal = array[0];
